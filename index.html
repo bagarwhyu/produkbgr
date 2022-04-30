@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form | Data Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1 class="logo">BAGARW.</h1>
+    </header>
+
+    <!-- Content -->
+    <div class="title">
+        <h1>DATA PRODUK</h1>
+    </div>
+    
+    <!-- Form -->
+    <div class="container-form">
+        <form>
+            <p>*Silahkan mengisi data Produk/Barang Anda</p>
+            <div class="input">
+                <input type="text" id="name" name="name" placeholder="Nama Produk" class="input-text" autocomplete="off">
+                <span class="border"></span>
+                <br>
+            </div>
+
+            <div class="input">
+                <input type="text" id="code" name="code" placeholder="Kode Produk" class="input-text" autocomplete="off">
+                <span class="border"></span>
+                <br>
+            </div>
+
+            <div class="input">
+                <input type="text" id="price" name="price" placeholder="Harga Produk" class="input-text" autocomplete="off">
+                <span class="border"></span>
+                <br>
+            </div>
+
+            <div class="input">
+                <input type="number" id="stock" name="stock" placeholder="Stok Produk" class="input-text" autocomplete="off">
+                <span class="border"></span>
+                <br>
+            </div>
+
+
+            <div class="input-select">
+                <select name="spec" id="spec" >
+                    <option value="">Spesifikasi Produk</option>
+                    <option value="baru">Barang Baru</option>
+                    <option value="bekas">Barang Bekas</option>
+                </select>
+            </div>
+            <div class="status">
+                <label for="" class="label">Status Produk</label>
+                <div class="input-radio">
+                    <input type="radio" name="status" id="status-ready">
+                    <label for="status-ready" class="radio">Ready</label>
+                    <input type="radio" name="status" id="status-not">
+                    <label for="status-not" class="radio">Not-Ready</label>
+                    <br>
+                </div>
+            </div>
+            <input type="submit" value="submit" class="submit">
+        </form>
+    </div>
+</body>
+</html>
