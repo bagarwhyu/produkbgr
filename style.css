@@ -196,3 +196,9 @@ input[type="submit"]:hover{
     background: linear-gradient(90deg, rgb(113, 113, 255) 0%, rgb(252, 234, 234) 100%);
     filter: drop-shadow(1px 1px 5px rgb(66, 80, 161));
 }
+
+@media (max-width:500px){
+    form{
+        width: 90%;
+    }
+}
